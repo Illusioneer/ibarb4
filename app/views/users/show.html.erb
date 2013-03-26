@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uid:</strong>
+  <%= @user.uid %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @user.password %>
+</p>
+
+<p>
+  <strong>Mail:</strong>
+  <%= @user.mail %>
+</p>
+
+<p>
+  <strong>Tagline:</strong>
+  <%= @user.tagline %>
+</p>
+
+<p>
+  <strong>Last update:</strong>
+  <%= @user.last_update %>
+</p>
+
+<p>
+  <strong>Last access:</strong>
+  <%= @user.last_access %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @user.status %>
+</p>
+
+<p>
+  <strong>Timezone:</strong>
+  <%= @user.timezone %>
+</p>
+
+<p>
+  <strong>Metadata:</strong>
+  <%= @user.metadata %>
+</p>
+
+<p>
+  <strong>User roles:</strong>
+  <%= @user.user_roles %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uid: 
+  name: 
+  password: 
+  mail: 
+  tagline: 
+  last_update: 
+  last_access: 
+  status: 
+  timezone: 
+  metadata: 
+  user_roles: 
+
+two:
+  uid: 
+  name: 
+  password: 
+  mail: 
+  tagline: 
+  last_update: 
+  last_access: 
+  status: 
+  timezone: 
+  metadata: 
+  user_roles: 
