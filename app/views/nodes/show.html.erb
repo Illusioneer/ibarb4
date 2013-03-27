@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Node:</strong>
+  <%= @node.node_id %>
+</p>
+
+<p>
+  <strong>Version:</strong>
+  <%= @node.version_id %>
+</p>
+
+<p>
+  <strong>Current version:</strong>
+  <%= @node.current_version_id %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @node.language %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @node.title %>
+</p>
+
+<p>
+  <strong>Authors:</strong>
+  <%= @node.authors_id %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @node.status %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @node.created_at %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @node.updated_at %>
+</p>
+
+<p>
+  <strong>Unpublished at:</strong>
+  <%= @node.unpublished_at %>
+</p>
+
+<p>
+  <strong>First published:</strong>
+  <%= @node.first_published %>
+</p>
+
+<p>
+  <strong>Last published:</strong>
+  <%= @node.last_published %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @node.rank %>
+</p>
+
+<p>
+  <strong>Metadata:</strong>
+  <%= @node.metadata %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @node.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_node_path(@node) %> |
+<%= link_to 'Back', nodes_path %>

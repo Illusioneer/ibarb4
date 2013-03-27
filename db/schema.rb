@@ -11,11 +11,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130324020537) do
+ActiveRecord::Schema.define(version: 20130327024215) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "hstore"
+
+  create_table "nodes", force: true do |t|
+    t.integer  "node_id"
+    t.integer  "version_id"
+    t.integer  "current_version_id"
+    t.string   "language"
+    t.string   "title"
+    t.hstore   "authors_id"
+    t.string   "status"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.datetime "unpublished_at"
+    t.datetime "first_published"
+    t.datetime "last_published"
+    t.string   "rank"
+    t.hstore   "metadata"
+    t.text     "content"
+  end
+
+  add_index "nodes", ["current_version_id"], name: "index_nodes_on_current_version_id"
+  add_index "nodes", ["node_id"], name: "index_nodes_on_node_id"
+  add_index "nodes", ["version_id"], name: "index_nodes_on_version_id"
 
   create_table "users", force: true do |t|
     t.integer  "uid"

@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  node_id: 1
+  version_id: 1
+  current_version_id: 1
+  language: MyString
+  title: MyString
+  authors_id: 
+  status: MyString
+  created_at: 2013-03-26 22:42:15
+  updated_at: 2013-03-26 22:42:15
+  unpublished_at: 2013-03-26 22:42:15
+  first_published: 2013-03-26 22:42:15
+  last_published: 2013-03-26 22:42:15
+  rank: MyString
+  metadata: 
+  content: MyText
+
+two:
+  node_id: 1
+  version_id: 1
+  current_version_id: 1
+  language: MyString
+  title: MyString
+  authors_id: 
+  status: MyString
+  created_at: 2013-03-26 22:42:15
+  updated_at: 2013-03-26 22:42:15
+  unpublished_at: 2013-03-26 22:42:15
+  first_published: 2013-03-26 22:42:15
+  last_published: 2013-03-26 22:42:15
+  rank: MyString
+  metadata: 
+  content: MyText
