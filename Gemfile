@@ -6,6 +6,7 @@ gem 'pg'
 gem 'quiet_assets'
 gem 'googlevoiceapi'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'yui-rails'
 
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
