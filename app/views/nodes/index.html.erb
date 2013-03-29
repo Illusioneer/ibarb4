@@ -44,7 +44,7 @@
       <td><%= node.content %></td>
       <td><%= link_to 'Show', node %></td>
       <td><%= link_to 'Edit', edit_node_path(node) %></td>
-      <td><%= link_to 'Destroy', node, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'Destroy', node, :confirm => 'Are you sure?', :method => :delete, :remote=>true, :class=>'delete_post' %></td>
     </tr>
     <% end %>
   </tbody>

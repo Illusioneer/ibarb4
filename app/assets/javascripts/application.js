@@ -15,3 +15,6 @@
 //= require turbolinks
 //= require_tree .
 //= require tinymce-jquery
+$('.delete_post').bind('ajax:success', function() {  
+    $(this).closest('tr').fadeOut();  
+});  

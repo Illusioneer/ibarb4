@@ -23,6 +23,22 @@ class NodesController < ApplicationController
 
   # POST /nodes
   # POST /nodes.json
+  def upsert
+    @node = Post.new(node_params[:post])  
+  
+    respond_to do |format|  
+      if @node.save  
+        format.html { redirect_to(@node, :notice => 'Status updated.') }  
+        format.js  
+      else  
+        format.html { render :action => "new" }  
+        format.js  
+      end  
+    end  
+  end  
+  
+  
+  
   def create
     @node = Node.new(node_params)
 
@@ -57,6 +73,7 @@ class NodesController < ApplicationController
     @node.destroy
     respond_to do |format|
       format.html { redirect_to nodes_url }
+      format.js   { render :nothing => true }  
       format.json { head :no_content }
     end
   end
