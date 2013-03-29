@@ -1,4 +1,11 @@
 Theibarb::Application.routes.draw do
+  get "backend/index"
+  get "backend/show"
+  get "backend/new"
+  get "backend/edit"
+  get "backend/update"
+  get "backend/create"
+  get "backend/destroy"
   resources :nodes
 
   resources :users

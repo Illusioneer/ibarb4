@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-
+<input id="user_born_on" name="user[born_on]" type="datetime" />
   <div class="field">
     <%= f.label :node_id %><br />
     <%= f.number_field :node_id %>
@@ -49,7 +49,7 @@
   </div>
   <div class="field">
     <%= f.label :unpublished_at %><br />
-    <%= f.datetime_select :unpublished_at %>
+    <%= f.datetime_local_field :unpublished_at %>
   </div>
   <div class="field">
     <%= f.label :first_published %><br />
@@ -74,4 +74,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>

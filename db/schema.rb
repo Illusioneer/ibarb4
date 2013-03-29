@@ -13,10 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20130327024215) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-  enable_extension "hstore"
-
   create_table "nodes", force: true do |t|
     t.integer  "node_id"
     t.integer  "version_id"
