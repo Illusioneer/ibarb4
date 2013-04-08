@@ -5,6 +5,11 @@ class NodesController < ApplicationController
   # GET /nodes.json
   def index
     @nodes = Node.all
+
+    respond_to do |format|
+      format.rss { render :layout => false }
+      format.atom { render :layout => false }
+    end
   end
 
   # GET /nodes/1
