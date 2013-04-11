@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #userform {
-  width: 190px;
+  width: 290px;
   //height: 30px;
   div {
     &:nth-child(even) {
@@ -18,15 +18,10 @@
 
     .label {
        width: 30px;
+       display: inline-block;
        color: red;
        font: helvetica;
        font-size: 12pt;
-    }
-    .spanner {
-      width: 30px;
-      color: blue;
-      font: helvetica;
-      font-size: 12pt;
     }
   }
 }
