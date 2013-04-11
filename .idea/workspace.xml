@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="003b729b-e96f-458e-8d61-ff2c6e223377" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
     </list>
     <ignored path="ibarb4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,8 +11,8 @@
     <file path="/nodes_controller.rb" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365451642069" ignored="false" />
     <file path="/nodes.css.scss" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365454233252" ignored="false" />
     <file path="/database.yml" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365538463575" ignored="false" />
-    <file path="/users.css.scss" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365702814845" ignored="false" />
-    <file path="/_form.html.erb" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365702404319" ignored="false" />
+    <file path="/users.css.scss" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365703189239" ignored="false" />
+    <file path="/_form.html.erb" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365703214193" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="users.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="17" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+            <state line="23" column="46" selection-start="522" selection-end="522" vertical-scroll-proportion="0.33757338">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="32" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.6962025">
+            <state line="41" column="26" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-25.625">
               <folding />
             </state>
           </provider>
@@ -691,16 +692,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+        <state line="41" column="26" selection-start="1468" selection-end="1468" vertical-scroll-proportion="-25.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="32" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.6962025">
+        <state line="23" column="46" selection-start="522" selection-end="522" vertical-scroll-proportion="0.33757338">
           <folding />
         </state>
       </provider>
