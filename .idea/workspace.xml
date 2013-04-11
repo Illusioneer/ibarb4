@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="003b729b-e96f-458e-8d61-ff2c6e223377" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ibarb4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +11,8 @@
     <file path="/nodes_controller.rb" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365451642069" ignored="false" />
     <file path="/nodes.css.scss" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365454233252" ignored="false" />
     <file path="/database.yml" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365538463575" ignored="false" />
-    <file path="/users.css.scss" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365690543558" ignored="false" />
+    <file path="/users.css.scss" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365701052928" ignored="false" />
+    <file path="/_form.html.erb" changelist="003b729b-e96f-458e-8d61-ff2c6e223377" time="1365702404319" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="52" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2935421">
+            <state line="8" column="25" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="32" selection-start="1399" selection-end="1399" vertical-scroll-proportion="-27.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/nodes/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="46" column="26" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.69138277">
               <folding />
             </state>
           </provider>
@@ -98,8 +88,8 @@
         <option value="$PROJECT_DIR$/app/views/nodes/index.atom.builder" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/nodes.css.scss" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -658,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/nodes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -686,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="32" selection-start="1399" selection-end="1399" vertical-scroll-proportion="-27.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/nodes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -700,9 +676,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/nodes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2935421">
+        <state line="8" column="25" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="26" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.69138277">
           <folding />
         </state>
       </provider>

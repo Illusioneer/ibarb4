@@ -5,16 +5,15 @@
 #userform {
   width: 50%;
   //height: 30px;
-
   div {
-    &:hover {
-      background-color:lightsteelblue;
+    &:nth-child(even) {
+      background-color: lightyellow;
     }
-    &:nth-child(:even) {
-      background-color: lightgrey;
-    }
-    &:nth-child(:odd) {
+    &:nth-child(odd) {
       background-color: lightcyan;
+    }
+    &:hover {
+      background-color:lightgrey;
     }
   }
 }
