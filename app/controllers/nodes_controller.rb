@@ -35,9 +35,7 @@ class NodesController < ApplicationController
         format.js  
       end  
     end  
-  end  
-  
-  
+  end
   
   def create
     @node = Node.new(node_params)
